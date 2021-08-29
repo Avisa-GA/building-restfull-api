@@ -2,13 +2,13 @@ import express from "express";
 import routes from "./src/routes/crmRoute";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
-
+require("dotenv").config();
+const { PORT, MONGODB_URL } = process.env;
 const app = express();
-const PORT = 4000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/myFirstDb", {
+mongoose.connect(MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
