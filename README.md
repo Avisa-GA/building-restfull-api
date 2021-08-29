@@ -8,4 +8,5 @@ How to create a simple, RESTful web API with Node.js—the popular JavaScript ru
 * Serving files
 
 ## Skills
+<img src="https://img.shields.io/badge/-Express.js-orange" alt="expressjs" />
 <img src="https://img.shields.io/badge/-Node.js-yellowgreen" alt="nodejs" />
