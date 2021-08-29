@@ -6,6 +6,11 @@ How to create a simple, RESTful web API with Node.js—the popular JavaScript ru
 * Setting up a database and schema
 * Creating POST, GET, PUT, and DELETE endpoints
 * Serving files
+* Using a JSON Web Token (JWT)
+* Adding bcrypt password hashing
+* Adding handlers for registration and login
+* Finalizing secured endpoints
+* Testing APIs with Postman
 
 ## Skills
 <img src="https://img.shields.io/badge/-Express.js-orange" alt="expressjs" /> <img src="https://img.shields.io/badge/-REST%20APIs-blue" alt="restApis" /> <img src="https://img.shields.io/badge/-RESTfull%20WebServices-yellow" alt="restfull webservices" /> <img src="https://img.shields.io/badge/-Node.js-yellowgreen" alt="nodejs" />
