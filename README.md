@@ -6,3 +6,6 @@ How to create a simple, RESTful web API with Node.js—the popular JavaScript ru
 * Setting up a database and schema
 * Creating POST, GET, PUT, and DELETE endpoints
 * Serving files
+
+## Skills
+<img src="https://img.shields.io/badge/-Node.js-yellowgreen" alt="nodejs" />
