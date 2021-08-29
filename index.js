@@ -8,14 +8,15 @@ const PORT = 4000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/CRMdb", {
+mongoose.connect("mongodb://localhost/myFirstDb", {
   useNewUrlParser: true,
-  useUnifiedTopology: false,
+  useUnifiedTopology: true,
 });
 
 // bodyparser setup
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
 routes(app);
 
 app.get("/", (req, res) =>
