@@ -13,4 +13,4 @@ How to create a simple, RESTful web API with Node.js—the popular JavaScript ru
 * Testing APIs with Postman
 
 ## Skills
-<img src="https://img.shields.io/badge/-Express.js-orange" alt="expressjs" /> <img src="https://img.shields.io/badge/-REST%20APIs-blue" alt="restApis" /> <img src="https://img.shields.io/badge/-RESTfull%20WebServices-yellow" alt="restfull webservices" /> <img src="https://img.shields.io/badge/-Node.js-yellowgreen" alt="nodejs" />
+<img src="https://img.shields.io/badge/-Express.js-orange" alt="expressjs" /> <img src="https://img.shields.io/badge/-REST%20APIs-blue" alt="restApis" /> <img src="https://img.shields.io/badge/-RESTfull%20WebServices-yellow" alt="restfull webservices" /> <img src=https://img.shields.io/badge/-Software%20Development%20Security-red" alt="wtj" /> <img src="https://img.shields.io/badge/-Node.js-yellowgreen" alt="nodejs" />
