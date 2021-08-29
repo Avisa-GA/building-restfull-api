@@ -31,3 +31,26 @@ export const getContactsWithID = (req, res) => {
     res.json(contact);
   });
 };
+
+export const updateContact = (req, res) => {
+  Contact.findByIdAndUpdate(
+    { _id: req.params.contactID },
+    req.body,
+    { new: true, useFindAndModify: false },
+    (err, contact) => {
+      if (err) {
+        res.send(err);
+      }
+      res.json(contact);
+    }
+  );
+};
+
+export const deleteContact = (req, res) => {
+  Contact.remove({ _id: req.params.contactID }, (err, contact) => {
+    if (err) {
+      res.send(err);
+    }
+    res.json({ message: "DELETE request sucessfull!" });
+  });
+};
