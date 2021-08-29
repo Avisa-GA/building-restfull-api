@@ -22,6 +22,6 @@ export const UserSchema = new Schema({
   },
 });
 
-UserSchema.methods.comparedPassword = (password, hashPassword) => {
+UserSchema.methods.comparePassword = (password, hashPassword) => {
   return bcrypt.compareSync(password, hashPassword);
 };

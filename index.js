@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 require("dotenv").config();
 const { PORT, MONGODB_URL } = process.env;
 const app = express();
-import jwt from "jsonwebtoken";
+import jsonwebtoken from "jsonwebtoken";
 
 // mongoose connection
 mongoose.Promise = global.Promise;
@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     req.headers.authorization &&
     req.headers.authorization.split(" ")[0] === "JWT"
   ) {
-    jwt.verify(
+    jsonwebtoken.verify(
       req.headers.authorization.split(" ")[1],
       "RESTFULAPIs",
       (err, decode) => {
